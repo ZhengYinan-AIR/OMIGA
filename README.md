@@ -1,20 +1,12 @@
 # Offline Multi-Agent Reinforcement Learning with Implicit Global-to-Local Value Regularization (NeurIPS 2023)
 The official implementation of "[Offline Multi-Agent Reinforcement Learning with Implicit Global-to-Local Value Regularization](https://arxiv.org/abs/2307.11620)". This repository is inspired by the [TRPO-in-MARL](https://github.com/cyanrain7/TRPO-in-MARL) library for online Multi-Agent RL.
 ## Installation
-### Create environments
 ``` Bash
 conda create -n env_name python=3.9
 conda activate OMIGA
 git clone https://github.com/ZhengYinan-AIR/OMIGA.git
 cd OMIGA
 pip install -r requirements.txt
-```
-
-### Multi-Agent MuJoCo
-Following the instructios in https://github.com/openai/mujoco-py and https://github.com/schroederdewitt/multiagent_mujoco to setup a mujoco environment. In the end, remember to set the following environment variables:
-``` Bash
-LD_LIBRARY_PATH=${HOME}/.mujoco/mujoco210/bin
-LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so
 ```
 
 ## How to run
