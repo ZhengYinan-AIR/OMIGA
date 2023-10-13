@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 Before running the code, you need to download the necessary offline datasets ([Download link](https://cloud.tsinghua.edu.cn/d/dcf588d659214a28a777/)). Then, make sure the config file at [configs/config.py](https://github.com/ZhengYinan-AIR/Offline-MARL/blob/master/configs/config.py) is correct. Set the **data_dir** parameter as the storage location for the downloaded data, and configure parameters **scenario**, **agent_conf**, and **data_type**. You can run the code as follows:
 ``` Bash
-# The location of the dataset is at: "/data/Ant-v2-2x4-expert.hdf5"
+# If the location of the dataset is at: "/data/Ant-v2-2x4-expert.hdf5"
 cd OMIGA
 python run_mujoco.py --data_dir="/data/" --scenario="Ant-v2" --agent_conf="2x4" --data_type="expert"
 ```
