@@ -19,7 +19,7 @@ LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so
 
 ## How to run
 
-Before running the code, you need to download the necessary offline datasets ([Download link](https://cloud.tsinghua.edu.cn/d/dcf588d659214a28a777/)). Then, make sure the config file at [configs/config.py](https://github.com/ZhengYinan-AIR/Offline-MARL/blob/master/configs/config.py) is correct. Set the **data_dir** parameter as the storage location for the downloaded data, and configure parameters **scenario**, **agent_conf**, and **data_type** based on the dataset names. You can run the code as follows:
+Before running the code, you need to download the necessary offline datasets ([Download link](https://cloud.tsinghua.edu.cn/d/dcf588d659214a28a777/)). Then, make sure the config file at [configs/config.py](https://github.com/ZhengYinan-AIR/Offline-MARL/blob/master/configs/config.py) is correct. Set the **data_dir** parameter as the storage location for the downloaded data, and configure parameters **scenario**, **agent_conf**, and **data_type**. You can run the code as follows:
 ``` Bash
 # The location of the dataset is at: "/data/Ant-v2-2x4-expert.hdf5"
 cd OMIGA
