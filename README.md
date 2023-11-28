@@ -1,7 +1,7 @@
 # Offline Multi-Agent Reinforcement Learning with Implicit Global-to-Local Value Regularization (NeurIPS 2023)
 The official implementation of "[Offline Multi-Agent Reinforcement Learning with Implicit Global-to-Local Value Regularization](https://arxiv.org/abs/2307.11620)". OMIGA provides a principled framework to convert global-level value regularization into equivalent implicit local value regularizations and simultaneously enables in-sample learning, thus elegantly bridging multi-agent value decomposition and policy learning with offline regularizations. This repository is inspired by the [TRPO-in-MARL](https://github.com/cyanrain7/TRPO-in-MARL) library for online Multi-Agent RL.
 
-**This repo provides the implementation of Multi-agent MuJoCo in continuous complex environments.**
+**This repo provides the implementation of OMIGA in Multi-agent MuJoCo.**
 
 ## Installation
 ``` Bash
