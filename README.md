@@ -39,7 +39,7 @@ If you find our code and paper can help, please cite our paper as:
 @article{wang2023offline,
   title={Offline Multi-Agent Reinforcement Learning with Implicit Global-to-Local Value Regularization},
   author={Wang, Xiangsen and Xu, Haoran and Zheng, Yinan and Zhan, Xianyuan},
-  journal={arXiv preprint arXiv:2307.11620},
+  journal={Advances in Neural Information Processing Systems},
   year={2023}
 }
 ```
