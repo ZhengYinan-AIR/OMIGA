@@ -1,4 +1,4 @@
-**This repo provides the implementation of OMIGA in SMAC**
+# Offline Multi-Agent Reinforcement Learning with Implicit Global-to-Local Value Regularization (NeurIPS 2023)
 
 
 ## Installing StarCraft II and SMAC
