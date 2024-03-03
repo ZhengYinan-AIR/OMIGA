@@ -1,7 +1,14 @@
 # Offline Multi-Agent Reinforcement Learning with Implicit Global-to-Local Value Regularization (NeurIPS 2023)
 The official implementation of "[Offline Multi-Agent Reinforcement Learning with Implicit Global-to-Local Value Regularization](https://arxiv.org/abs/2307.11620)". OMIGA provides a principled framework to convert global-level value regularization into equivalent implicit local value regularizations and simultaneously enables in-sample learning, thus elegantly bridging multi-agent value decomposition and policy learning with offline regularizations. This repository is inspired by the [TRPO-in-MARL](https://github.com/cyanrain7/TRPO-in-MARL) library for online Multi-Agent RL.
 
-**This repo provides the implementation of OMIGA in Multi-agent MuJoCo.**
+**This repo provides the implementation of OMIGA in Multi-agent MuJoCo and SMAC**
+
+## Branches Overview
+| Branch name 	| Usage 	|
+|:---:	|:---:	|
+| [master](https://github.com/ZhengYinan-AIR/OMIGA) 	| OMIGA implementation for ``Multi-agent MujoCo``. |
+| [SMAC](https://github.com/ZhengYinan-AIR/OMIGA/tree/SMAC) 	| OMIGA implementation for ``SMAC``. 	|
+
 
 ## Installation
 ``` Bash
@@ -21,16 +28,7 @@ cd OMIGA
 python run_mujoco.py --data_dir="/data/" --scenario="Ant-v2" --agent_conf="2x4" --data_type="expert"
 ```
 
-## Weights and Biases Online Visualization Integration
-This codebase can also log to [W&B online visualization platform](https://wandb.ai/site). To log to W&B, you first need to set your W&B API key environment variable:
-```
-wandb online
-export WANDB_API_KEY='YOUR W&B API KEY HERE'
-```
-Then you can run experiments with W&B logging turned on:
-```
-python run_mujoco.py --wandb=True
-```
+
 
 
 ## Bibtex
