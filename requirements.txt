@@ -7,3 +7,4 @@ absl-py
 gym==0.17.2
 mujoco-py==2.0.2.8
 jinja2
+tensorboardX
